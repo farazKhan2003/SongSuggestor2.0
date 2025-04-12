@@ -27,5 +27,7 @@ describe('SearchBar Component', () => {
     fireEvent.click(button);
 
     expect(setSongInput).toHaveBeenCalledWith('');
+    expect(setReccs).toHaveBeenCalledTimes(1);
+    expect(setSongInput).toHaveBeenCalledTimes(1);
   });
 });
