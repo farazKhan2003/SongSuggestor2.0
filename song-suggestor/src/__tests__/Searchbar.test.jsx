@@ -1,5 +1,4 @@
-import '@testing-library/jest-dom/extend-expect';
-import SearchBar from '../components/SearchBar';
+import SearchBar from '../components/Searchbar';
 import { render, screen, fireEvent } from '@testing-library/react';
 
 describe('SearchBar Component', () => {
