@@ -1,0 +1,34 @@
+.recommendationcard {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.albumcover {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.cardcontent {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.songtitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.artist,
+.album {
+  font-size: 14px;
+  color: #555;
+}
