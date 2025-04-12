@@ -5,6 +5,7 @@ const SearchBar = ({ setSongInput, setRecommendations }) => {
 
   const handleSearch = () => {
     setSongInput(input);
+    setRecommendations([]);
     // Call API and return recommendations
     // You will need to test whether it returns a list or a single recommendation
   };
