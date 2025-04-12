@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
-const SearchBar = ({ setSongInput, setRecommendations }) => {
+const SearchBar = ({ setSongInput, setReccs }) => {
   const [input, setInput] = useState('');
 
   const handleSearch = () => {
     setSongInput(input);
-    setRecommendations([]);
+    setReccs([]);
     // Call API and return recommendations
     // You will need to test whether it returns a list or a single recommendation
   };
