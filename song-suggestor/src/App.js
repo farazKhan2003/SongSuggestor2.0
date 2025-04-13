@@ -1,13 +1,12 @@
-import './styles/App.css';
 import React, { useState } from 'react';
 import Recommendations from './components/Recommendations';
 import SearchBar from './components/SearchBar';
 
 const App = () => {
   const [songInput, setSongInput] = useState('');
-  const [songReccs, setSongReccs] = useState([]);
-  //const [songLike, setSongLike] = useState();
-  //const [songDislike, setSongDislike] = useState();
+  const [songReccs, setSongReccs] = useState([]); // Ensure this is an array
+  const [songLike, setSongLike] = useState();
+  const [songDislike, setSongDislike] = useState();
 
   return (
     <div className="app">

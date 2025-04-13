@@ -5,8 +5,8 @@ const Recommendations = ({ recommendations }) => {
   return (
     <div className="recommendations">
       {recommendations.length > 0 ? (
-        recommendations.map((rec, index) => (
-          <RecommendationCard key={index} recommendations={rec} />
+        recommendations.map((recommendation, index) => (
+          <RecommendationCard key={index} recommendation={recommendation} />
         ))
       ) : (
         <p>No current recommendations</p>

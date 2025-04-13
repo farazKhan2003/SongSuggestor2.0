@@ -1,12 +1,12 @@
 import React from 'react';
 
 const RecommendationCard = ({ recommendation }) => {
-  const defaultCover = '..logo.svg';
+  const defaultCover = '../logo.svg';
 
   return (
     <div className="recommendationcard">
       <img
-        src={recommendation.albumcover}
+        src={recommendation.albumcover || defaultCover}
         alt={recommendation.name}
         class="albumcover"
       />
